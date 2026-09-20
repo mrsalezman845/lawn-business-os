@@ -1,0 +1,1 @@
+const C='lawn-os-v2',A=['./','./index.html','./manifest.json','./icon-192.svg','./icon-512.svg','./privacy.html'];self.addEventListener('install',e=>e.waitUntil(caches.open(C).then(c=>c.addAll(A))));self.addEventListener('fetch',e=>e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request))));
