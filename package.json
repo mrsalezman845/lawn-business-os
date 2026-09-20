@@ -1,6 +1,6 @@
 {
   "name": "lawn-business-os",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "private": true,
   "scripts": {
     "sync": "npx cap sync",
@@ -16,6 +16,7 @@
     "@capacitor/ios": "^8.0.0"
   },
   "devDependencies": {
-    "@capacitor/cli": "^8.0.0"
+    "@capacitor/cli": "^8.0.0",
+    "typescript": "^5.9.2"
   }
 }
